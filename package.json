@@ -1,11 +1,11 @@
 {
-  "name": "crm_admin",
+  "name": "quasar_shopping",
   "version": "0.0.1",
-  "description": "A free and beautiful Quasar template for CRM.",
-  "productName": "CRM Admin",
+  "description": "Quasar Shopping.",
+  "productName": "Quasar Shopping",
   "cordovaId": "org.cordova.quasar.app",
   "capacitorId": "",
-  "author": "Mayank Patel",
+  "author": "Mayur Patel",
   "private": true,
   "scripts": {
     "test": "echo \"No test specified\" && exit 0"

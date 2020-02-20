@@ -3,11 +3,8 @@
     <q-header reveal elevated style="background: linear-gradient(145deg, rgb(74, 94, 137) 15%, rgb(30, 75, 131) 70%);">
         <q-toolbar>
           <q-btn @click="left = !left" flat round dense icon="menu" class="q-mr-sm" />
-<!--          <q-avatar>-->
-<!--            <img src="https://cdn.quasar.dev/logo/svg/quasar-logo.svg">-->
-<!--          </q-avatar>-->
 
-          <q-toolbar-title>CRM Admin</q-toolbar-title>
+          <q-toolbar-title>Quasar Shopping</q-toolbar-title>
 
           <q-btn flat round dense icon="search" class="q-mr-xs" />
           <q-btn flat round dense icon="fas fa-sign-out-alt" to="/" />
@@ -24,7 +21,7 @@
             <img src="https://cdn.quasar.dev/img/boy-avatar.png">
           </q-avatar>
 
-          <q-toolbar-title>Mayank Patel</q-toolbar-title>
+          <q-toolbar-title>Mayur Patel</q-toolbar-title>
         </q-toolbar>
         <hr />
         <q-scroll-area style="height:100%;">
@@ -76,7 +73,7 @@
 <!--            <q-avatar size="56px" class="q-mb-sm">-->
 <!--              <img src="https://cdn.quasar.dev/img/boy-avatar.png">-->
 <!--            </q-avatar>-->
-<!--            <div class="text-weight-bold">Mayank Patel</div>-->
+<!--            <div class="text-weight-bold">Mayur Patel</div>-->
 <!--          </div>-->
         </div>
 <!--        </q-img>-->
