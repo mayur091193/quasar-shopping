@@ -7,6 +7,7 @@
           <q-card-section class="col-4 items-center float-left" style="background-color: #1f509e"
                           :style="{'height':(win_height-270)+'px'}" horizontal>
             <div class="text-center full-width">
+              <div><img src="statics/images/logo.png" style="width: 33%"/></div>
               <div class="text-weight-bolder text-white text-h6">Quasar Shopping</div>
               <div class="text-caption text-white">Quasar Shopping - One stop solution</div>
             </div>
@@ -16,6 +17,7 @@
               <div>
 
                 <q-form style="width: 50%;margin: auto;" class="q-gutter-md">
+                  <span class="text-subtitle1 text-weight-bold text-grey-7">Welcome Aboard</span>
                   <q-input
                     dense
                     outlined
@@ -32,8 +34,12 @@
                     label="Password"
                     lazy-rules
                   />
+                  <q-checkbox class="text-grey-8" dense v-model="remember_me" label="Remember me"/>
                   <div>
-                    <q-btn dense label="Login" to="/dashboard" type="button" color="primary"/>
+                    <q-btn class="text-capitalize" size="sm" style="width:75px" dense label="Login" to="/home" type="button"
+                           color="primary"/>
+                    <q-btn class="float-right text-blue-9 text-capitalize" size="sm" style="width:75px;border: 1px solid #36669e;" dense label="Sign Up"
+                           type="button"/>
                   </div>
                 </q-form>
 
@@ -41,46 +47,7 @@
             </q-card-section>
           </q-card-section>
 
-
         </q-card>
-        <!--        <q-card class="login-form" v-bind:style="$q.platform.is.mobile?{'width': '80%'}:{'width':'30%'}">-->
-        <!--          <q-img src="/statics/images/shop.jpg"></q-img>-->
-        <!--          <q-card-section>-->
-        <!--            <q-avatar size="74px" class="absolute" style="top: 0;right: 25px;transform: translateY(-50%);">-->
-        <!--              <img src="https://cdn.quasar.dev/img/boy-avatar.png">-->
-        <!--            </q-avatar>-->
-        <!--            <div class="row no-wrap items-center">-->
-        <!--              <div class="col text-h6 ellipsis">-->
-        <!--                Log in to Dashboard-->
-        <!--              </div>-->
-        <!--            </div>-->
-        <!--          </q-card-section>-->
-        <!--          <q-card-section>-->
-        <!--            <q-form-->
-        <!--              class="q-gutter-md"-->
-        <!--            >-->
-        <!--              <q-input-->
-        <!--                filled-->
-        <!--                v-model="username"-->
-        <!--                label="Username"-->
-        <!--                lazy-rules-->
-        <!--              />-->
-
-        <!--              <q-input-->
-        <!--                type="password"-->
-        <!--                filled-->
-        <!--                v-model="password"-->
-        <!--                label="Password"-->
-        <!--                lazy-rules-->
-
-        <!--              />-->
-
-        <!--              <div>-->
-        <!--                <q-btn label="Login" to="/dashboard" type="button" color="primary"/>-->
-        <!--              </div>-->
-        <!--            </q-form>-->
-        <!--          </q-card-section>-->
-        <!--        </q-card>-->
       </q-page>
     </q-page-container>
   </q-layout>
@@ -91,7 +58,8 @@
         data() {
             return {
                 username: 'admin',
-                password: 'Admin@CRM'
+                password: 'Admin@CRM',
+                remember_me: false
             }
         },
         mounted() {
