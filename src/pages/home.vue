@@ -1,7 +1,7 @@
 <template>
-  <q-page>
+  <q-page class="q-mt-sm">
     <div class="row q-col-gutter-sm">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
         <q-carousel
           arrows
           animated
@@ -28,6 +28,12 @@
           </q-carousel-slide>
         </q-carousel>
       </div>
+      <div class="col-md-3 col-md-3 col-sm-12 col-xs-12">
+        <div>
+          <vue-winwheel :segments="options" />
+        </div>
+
+      </div>
     </div>
 
   </q-page>
@@ -35,10 +41,56 @@
 
 
 <script>
+    import Vue from 'vue';
+
+    import VueWinwheel from 'vue-winwheel'
+    Vue.component('VueWinwheel', VueWinwheel);
     export default {
         data() {
             return {
-                slide: 'first'
+                slide: 'first',
+                options:[
+                    {
+                        textFillStyle: '#fff',
+                        fillStyle: '#000',
+                        text:'Prize 1'
+                    },
+                    {
+                        textFillStyle: '#000',
+                        fillStyle: '#fadede',
+                        text:'Prize 2'
+                    },
+                    {
+                        textFillStyle: '#fff',
+                        fillStyle: '#000',
+                        text:'Prize 3'
+                    },
+                    {
+                        textFillStyle: '#000',
+                        fillStyle: '#fadede',
+                        text:'Prize 4'
+                    },
+                    {
+                        textFillStyle: '#fff',
+                        fillStyle: '#000',
+                        text:'Prize 5'
+                    },
+                    {
+                        textFillStyle: '#000',
+                        fillStyle: '#fadede',
+                        text:'Prize 6'
+                    },
+                    {
+                        textFillStyle: '#fff',
+                        fillStyle: '#000',
+                        text:'Prize 7'
+                    },
+                    {
+                        textFillStyle: '#000',
+                        fillStyle: '#fadede',
+                        text:'Prize 8'
+                    }
+                ]
             }
         },
         methods: {}

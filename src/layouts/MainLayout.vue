@@ -1,37 +1,41 @@
 <template>
   <q-layout view="lHh LpR lFf" style="font-family: Lato;">
     <q-header reveal elevated style="background-color: #1f509e;">
-      <q-toolbar class="">
+      <q-toolbar class="q-py-sm">
         <!--          <q-btn @click="left = !left" flat round dense icon="menu" class="q-mr-sm" />-->
         <img src="statics/images/logo.png" style="width: 3%"/>
-        <q-toolbar-title>Quasar Shopping</q-toolbar-title>
+        <q-toolbar-title>
+          <span class="float-left q-mt-xs">Quasar Shopping</span>
+        <q-input class="float-left q-ml-xl" style="width: 650px;" square bg-color="white" dense outlined v-model="text"
+                 label="Search for products, brands and more"/>
+          </q-toolbar-title>
 
         <q-btn flat round dense icon="search" class="q-mr-xs"/>
         <q-btn flat round dense icon="fas fa-sign-out-alt" to="/"/>
       </q-toolbar>
-      <div class="bg-white text-grey-9 text-weight-bold">
+      <div class="bg-white text-grey-9 text-weight-bold shadow-transition">
         <div class="row text-center items-center" style="height: 38px">
-          <div class="col-2 cursor-pointer">
+          <div class="col-2 cursor-pointer hover-blue">
             Category 1
             <q-icon size="sm" class="q-ml-xs text-grey-5" name="keyboard_arrow_down"></q-icon>
           </div>
-          <div class="col-2 cursor-pointer">
+          <div class="col-2 cursor-pointer hover-blue">
             Category 2
             <q-icon size="sm" class="q-ml-xs text-grey-5" name="keyboard_arrow_down"></q-icon>
           </div>
-          <div class="col-2 cursor-pointer">
+          <div class="col-2 cursor-pointer hover-blue">
             Category 3
             <q-icon size="sm" class="q-ml-xs text-grey-5" name="keyboard_arrow_down"></q-icon>
           </div>
-          <div class="col-2 cursor-pointer">
+          <div class="col-2 cursor-pointer hover-blue">
             Category 4
             <q-icon size="sm" class="q-ml-xs text-grey-5" name="keyboard_arrow_down"></q-icon>
           </div>
-          <div class="col-2 cursor-pointer">
+          <div class="col-2 cursor-pointer hover-blue">
             Category 5
             <q-icon size="sm" class="q-ml-xs text-grey-5" name="keyboard_arrow_down"></q-icon>
           </div>
-          <div class="col-2 cursor-pointer">
+          <div class="col-2 cursor-pointer hover-blue">
             Category 6
             <q-icon size="sm" class="q-ml-xs text-grey-5" name="keyboard_arrow_down"></q-icon>
           </div>
@@ -75,5 +79,9 @@
 
   .tab-active {
     background-color: green;
+  }
+
+  .hover-blue:hover {
+    color: #1f509e;
   }
 </style>
