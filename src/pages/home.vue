@@ -1,7 +1,7 @@
 <template>
   <q-page class="q-mt-sm">
     <div class="row q-col-gutter-sm">
-      <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <q-carousel
           arrows
           animated
@@ -28,12 +28,12 @@
           </q-carousel-slide>
         </q-carousel>
       </div>
-      <div class="col-md-3 col-md-3 col-sm-12 col-xs-12">
-        <div>
-          <vue-winwheel :segments="options" />
-        </div>
+      <!--<div class="col-md-3 col-md-3 col-sm-12 col-xs-12">-->
+        <!--<div>-->
+          <!--<vue-winwheel :segments="options" />-->
+        <!--</div>-->
 
-      </div>
+      <!--</div>-->
     </div>
 
   </q-page>

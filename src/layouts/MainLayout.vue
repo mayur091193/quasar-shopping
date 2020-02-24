@@ -10,7 +10,7 @@
                  label="Search for products, brands and more"/>
           </q-toolbar-title>
 
-        <q-btn flat round dense icon="search" class="q-mr-xs"/>
+        <q-btn flat round dense icon="settings" class="q-mr-md"/>
         <q-btn flat round dense icon="fas fa-sign-out-alt" to="/"/>
       </q-toolbar>
       <div class="bg-white text-grey-9 text-weight-bold shadow-transition">
