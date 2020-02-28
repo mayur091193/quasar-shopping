@@ -47,7 +47,8 @@ module.exports = function (ctx) {
 
       // Quasar plugins
       plugins: [
-        'QIcon'
+        'QIcon',
+        'QScrollArea'
       ]
     },
 
