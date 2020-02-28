@@ -71,7 +71,7 @@
           >
             <q-carousel-slide v-for="val in [1,2,3]" :name="val" class="column no-wrap">
               <div class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap">
-                <div class="col-2 hover_border_grey text-center full-height">
+                <div @click="$router.push('/details')" class="col-2 hover_border_grey text-center full-height">
                   <q-img style="" class="rounded-borders"
                          src="https://www.graphicsprings.com/filestorage/stencils/d3dd5cb632e0826d9e6136af3241b28e.png">
                   </q-img>
@@ -80,7 +80,7 @@
                   <div><span>₹8,499</span><span class="q-ml-sm text-grey-6" style="text-decoration: line-through">₹10,999</span>
                   </div>
                 </div>
-                <div class="col-2 hover_border_grey text-center full-height">
+                <div @click="$router.push('/details')" class="col-2 hover_border_grey text-center full-height">
                   <q-img style="" class="rounded-borders"
                          src="https://www.graphicsprings.com/filestorage/stencils/d3dd5cb632e0826d9e6136af3241b28e.png">
                   </q-img>
@@ -89,7 +89,7 @@
                   <div><span>₹8,499</span><span class="q-ml-sm text-grey-6" style="text-decoration: line-through">₹10,999</span>
                   </div>
                 </div>
-                <div class="col-2 hover_border_grey text-center full-height">
+                <div @click="$router.push('/details')" class="col-2 hover_border_grey text-center full-height">
                   <q-img style="" class="rounded-borders"
                          src="https://www.graphicsprings.com/filestorage/stencils/d3dd5cb632e0826d9e6136af3241b28e.png">
                   </q-img>
@@ -98,7 +98,7 @@
                   <div><span>₹8,499</span><span class="q-ml-sm text-grey-6" style="text-decoration: line-through">₹10,999</span>
                   </div>
                 </div>
-                <div class="col-2 hover_border_grey text-center full-height">
+                <div @click="$router.push('/details')" class="col-2 hover_border_grey text-center full-height">
                   <q-img style="" class="rounded-borders"
                          src="https://www.graphicsprings.com/filestorage/stencils/d3dd5cb632e0826d9e6136af3241b28e.png">
                   </q-img>
@@ -107,7 +107,7 @@
                   <div><span>₹8,499</span><span class="q-ml-sm text-grey-6" style="text-decoration: line-through">₹10,999</span>
                   </div>
                 </div>
-                <div class="col-2 hover_border_grey text-center full-height">
+                <div @click="$router.push('/details')" class="col-2 hover_border_grey text-center full-height">
                   <q-img style="" class="rounded-borders"
                          src="https://www.graphicsprings.com/filestorage/stencils/d3dd5cb632e0826d9e6136af3241b28e.png">
                   </q-img>
@@ -178,6 +178,25 @@
               </div>
             </q-carousel-slide>
           </q-carousel>
+        </div>
+      </div>
+      <div class="row q-mt-sm q-mx-sm bg-white text-center">
+        <div class="col-2" style="border-right: 1px solid lightgrey"></div>
+        <div class="col-2" style="border-right: 1px solid lightgrey">
+          <q-img src="https://www.graphicsprings.com/filestorage/stencils/3055581cff0526602142cbb0bfba9fca.png"></q-img>
+          <div class="text-subtitle1 q-mb-sm text-grey-8">100% Secure Payments</div>
+        </div>
+        <div class="col-2" style="border-right: 1px solid lightgrey">
+          <q-img src="https://www.graphicsprings.com/filestorage/stencils/3055581cff0526602142cbb0bfba9fca.png"></q-img>
+          <div class="text-subtitle1 q-mb-sm text-grey-8">Trustpay</div>
+        </div>
+        <div class="col-2" style="border-right: 1px solid lightgrey">
+          <q-img src="https://www.graphicsprings.com/filestorage/stencils/3055581cff0526602142cbb0bfba9fca.png"></q-img>
+          <div class="text-subtitle1 q-mb-sm text-grey-8">Help Center</div>
+        </div>
+        <div class="col-2" style="border-right: 1px solid lightgrey">
+          <q-img src="https://www.graphicsprings.com/filestorage/stencils/3055581cff0526602142cbb0bfba9fca.png"></q-img>
+          <div class="text-subtitle1 q-mb-sm text-grey-8">Shop On The Go</div>
         </div>
       </div>
 

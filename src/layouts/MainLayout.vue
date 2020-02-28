@@ -5,7 +5,7 @@
     <q-header reveal elevated style="background-color: #1f509e;">
       <q-toolbar class="q-py-sm">
         <!--          <q-btn @click="left = !left" flat round dense icon="menu" class="q-mr-sm" />-->
-        <img class="cursor-pointer" src="statics/images/logo.png" style="width: 3%"/>
+        <img @click="$router.push('/home')" class="cursor-pointer" src="statics/images/logo.png" style="width: 3%"/>
         <q-toolbar-title>
           <span class="float-left q-mt-xs text-h6 text-weight-bold" style="font-size: 17px;">Quasar Shopping</span>
           <q-input class="float-left q-ml-xl" style="width: 650px;" square bg-color="white" dense outlined
@@ -185,6 +185,7 @@
         menu_cat_elc: false,
         menu_cat_tvs: false,
         menu_cat_men: false,
+        text: ''
       }
     }
   }
