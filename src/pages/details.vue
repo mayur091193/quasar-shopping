@@ -84,31 +84,31 @@
             <q-item style="padding-left: 0 !important;" v-ripple>
               <span class="text-subtitle2 q-mr-xs">5</span>
               <q-icon name="star" size="1.5em" color="orange"></q-icon>
-              <q-linear-progress class="q-ml-sm  q-mr-sm" style="margin-top: 5px;" stripe size="13px" :value="0.9" />
+              <q-linear-progress class="q-ml-sm  q-mr-sm" style="margin-top: 5px;" size="13px" :value="0.9" />
               <span style="margin-top: 2px" class="text-caption text-weight-bold text-grey-8">273</span>
             </q-item>
             <q-item style="padding-left: 0 !important;" v-ripple>
               <span class="text-subtitle2 q-mr-xs">4</span>
               <q-icon name="star" size="1.5em" color="orange"></q-icon>
-              <q-linear-progress class="q-ml-sm  q-mr-sm" style="margin-top: 5px;" stripe size="13px" :value="0.6" />
+              <q-linear-progress class="q-ml-sm  q-mr-sm" style="margin-top: 5px;" size="13px" :value="0.6" />
               <span style="margin-top: 2px" class="text-caption text-weight-bold text-grey-8">&nbsp;&nbsp;69</span>
             </q-item>
             <q-item style="padding-left: 0 !important;" v-ripple>
               <span class="text-subtitle2 q-mr-xs">3</span>
               <q-icon name="star" size="1.5em" color="orange"></q-icon>
-              <q-linear-progress class="q-ml-sm  q-mr-sm" style="margin-top: 5px;" stripe size="13px" :value="0.1" />
+              <q-linear-progress class="q-ml-sm  q-mr-sm" style="margin-top: 5px;" size="13px" :value="0.1" />
               <span style="margin-top: 2px" class="text-caption text-weight-bold text-grey-8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6</span>
             </q-item>
             <q-item style="padding-left: 0 !important;" v-ripple>
               <span class="text-subtitle2 q-mr-xs">2</span>
               <q-icon name="star" size="1.5em" color="orange"></q-icon>
-              <q-linear-progress class="q-ml-sm  q-mr-sm" style="margin-top: 5px;" stripe size="13px" :value="0.1" />
+              <q-linear-progress class="q-ml-sm  q-mr-sm" style="margin-top: 5px;" size="13px" :value="0.1" />
               <span style="margin-top: 2px" class="text-caption text-weight-bold text-grey-8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3</span>
             </q-item>
             <q-item style="padding-left: 0 !important;" v-ripple>
               <span class="text-subtitle2 q-mr-xs">1</span>
               <q-icon name="star" size="1.5em" color="orange"></q-icon>
-              <q-linear-progress class="q-ml-sm  q-mr-sm" style="margin-top: 5px;" stripe size="13px" :value="0.1" />
+              <q-linear-progress class="q-ml-sm  q-mr-sm" style="margin-top: 5px;" size="13px" :value="0.1" />
               <span style="margin-top: 2px" class="text-caption text-weight-bold text-grey-8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6</span>
             </q-item>
 
@@ -128,8 +128,11 @@
         class="bg-primary text-white shadow-2"
         :breakpoint="0"
       >
-        <q-tab name="Specifications" icon="info" label="Specifications"/>
-        <q-tab name="Ratings & Reviews" icon="star" label="Ratings & Reviews"/>
+        <q-tab name="Specifications" label="Specifications"/>
+        <q-tab name="Ratings & Reviews" label="Ratings & Reviews"/>
+        <q-tab name="Similar products" label="Similar products"/>
+        <q-tab name="Bought together" label="Bought together"/>
+        <q-tab name="Recently Viewed" label="Recently Viewed"/>
       </q-tabs>
       <q-tab-panels style="border: 1px solid lightgrey" v-model="tab">
         <q-tab-panel name="Specifications">
