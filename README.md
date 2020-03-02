@@ -48,7 +48,7 @@ Reach out to me at "mayur091193@gmail.com" for queries.
 **Home**
 <p float="left">
 	<kbd>
-<img src="src/assets/home.png" border="1" alt="Dashboard"
+<img src="src/assets/home.png" border="1" alt="Home"
 	title="Home"  />
 		</kbd>
 </p>
@@ -56,7 +56,7 @@ Reach out to me at "mayur091193@gmail.com" for queries.
 **Details**
 <p float="left">
 	<kbd>
-<img src="src/assets/details.png" border="1" alt="Customer Management"
+<img src="src/assets/details.png" border="1" alt="Details"
 	title="Details"  />	
 	</kbd>
 </p>
@@ -64,7 +64,7 @@ Reach out to me at "mayur091193@gmail.com" for queries.
 **Category**
 <p float="left">
 	<kbd>
-<img src="src/assets/category.png" border="1" alt="Change Request"
+<img src="src/assets/category.png" border="1" alt="Category"
 	title="Category"  />
 	</kbd>
 </p>
@@ -72,7 +72,7 @@ Reach out to me at "mayur091193@gmail.com" for queries.
 **Footer**
 <p float="left">
 	<kbd>
-<img src="src/assets/footer.png" border="1" alt="Change Request"
+<img src="src/assets/footer.png" border="1" alt="Footer"
 	title="Footer"  />
 	</kbd>
 </p>
