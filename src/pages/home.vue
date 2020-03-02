@@ -31,7 +31,7 @@
       </div>
       <div class="col-md-2">
         <q-card class="bg-white q-mr-sm q-pt-sm">
-          <img src="statics/images/location.png" style="margin:auto;width:39%;">
+          <img src="https://www.graphicsprings.com/filestorage/stencils/d3dd5cb632e0826d9e6136af3241b28e.png" style="margin:auto;width:66%;">
           <q-card-section class="q-pt-xs">
             <div class="text-caption text-center text-grey-7">Your Delivery Pincode</div>
             <div class="text-caption text-center q-mt-sm text-grey-9">Enter your pincode to check availability and

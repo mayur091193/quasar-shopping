@@ -1,1 +1,77 @@
-# Quasar Shopping Cart Template
+# Quasar Shopping
+
+A free and beautiful Quasar template for Shopping website.
+
+## Site: [https://quasar-admin-crm-template.netlify.com/](https://quasar-admin-crm-template.netlify.com/)
+
+## Resources used
+* [Quasar Framework](https://quasar.dev/)
+* [Vue.js](https://vuejs.org/)
+
+
+## Installation
+
+* **Clone the repository**
+
+```
+git clone https://github.com/mayur091193/quasar-shopping.git
+```
+
+## Install the dependencies
+```bash
+cd quasar-shopping
+npm install
+```
+
+### To run the app in development mode (hot-code reloading, error reporting, etc.)
+```bash
+quasar dev
+```
+
+
+### Build the application
+```bash
+quasar build
+```
+
+Reach out to me at "mayur091193@gmail.com" for queries.
+
+## Screens UI
+**Login**
+<p float="left">
+        <kbd>
+<img src="assets/login.png" border="1" alt="Login"
+        title="Login"  />
+                </kbd>
+</p>
+
+**Home**
+<p float="left">
+	<kbd>
+<img src="assets/home.png" border="1" alt="Dashboard"
+	title="Home"  />
+		</kbd>
+</p>
+
+**Details**
+<p float="left">
+	<kbd>
+<img src="assets/details.png" border="1" alt="Customer Management"
+	title="Details"  />	
+	</kbd>
+</p>
+
+**Category**
+<p float="left">
+	<kbd>
+<img src="assets/category.png" border="1" alt="Change Request"
+	title="Category"  />
+	</kbd>
+</p>
+
+### Customize the configuration
+See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
