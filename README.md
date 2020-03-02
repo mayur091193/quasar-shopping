@@ -2,8 +2,6 @@
 
 A free and beautiful Quasar template for Shopping website.
 
-# Responsive - In next release
-
 ## Site: [https://quasar-shopping.netlify.com/](https://quasar-shopping.netlify.com/)
 
 ## Resources used
@@ -81,6 +79,8 @@ Reach out to me at "mayur091193@gmail.com" for queries.
 
 ### Customize the configuration
 See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+
+# Responsive - In next release
 
 ## License
 
