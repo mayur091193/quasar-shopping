@@ -33,7 +33,7 @@
           <q-card @click="$router.push('/details')" class="cursor-pointer" :class="class_val"
                   @mouseover="class_val='my-card shadow-20'"
                   @mouseleave="class_val='my-card shadow-'">
-            <q-img src="https://cdn.quasar.dev/img/chicken-salad.jpg"></q-img>
+            <q-img src="https://miipublications.com.my/wp-content/uploads/2019/10/shop-online-760x490.jpg"></q-img>
 
             <q-card-section class="q-pb-xs q-pt-md">
               <!--<q-btn-->
@@ -95,136 +95,114 @@
         class_val: "shadow-1 my-card",
         filters_list: [
           {
-            "label": "Product",
+            "label": "Discount",
             "items": [
               {
                 "Product": false,
                 "count": 51,
-                "label": "Wealth Management",
+                "label": "50% or more",
                 "model": "Product"
               },
               {
                 "Product": false,
                 "count": 3,
-                "label": "Brokerage",
+                "label": "40% or more",
                 "model": "Product"
               },
               {
                 "Product": false,
                 "count": 41,
-                "label": "Strategic Investment",
+                "label": "30% or more",
                 "model": "Product"
               },
               {
                 "Product": false,
                 "count": 16,
-                "label": "Investment Banking",
+                "label": "20% or more",
+                "model": "Product"
+              },
+              {
+                "Product": false,
+                "count": 16,
+                "label": "10% or more",
                 "model": "Product"
               }
             ]
           },
+
           {
-            "label": "Asset Type",
+            "label": "Sleeve",
+            "items": [
+              {
+                "Period": false,
+                "count": 51,
+                "label": "3/4 Sleeve",
+                "model": "Period"
+              },
+              {
+                "Period": false,
+                "count": 3,
+                "label": "Full Sleeve",
+                "model": "Period"
+              },
+              {
+                "Period": false,
+                "count": 23,
+                "label": "Half Sleeve",
+                "model": "Period"
+              },
+              {
+                "Period": false,
+                "count": 65,
+                "label": "Short Sleeve",
+                "model": "Period"
+              }
+            ]
+          },
+          {
+            "label": "Size",
             "items": [
               {
                 "AssetType": false,
                 "count": 51,
-                "label": "Print Ad",
+                "label": "XXS",
                 "model": "AssetType"
               },
               {
                 "AssetType": false,
                 "count": 3,
-                "label": "Standee",
+                "label": "XS",
                 "model": "AssetType"
               },
               {
                 "AssetType": false,
                 "count": 23,
-                "label": "Backdrop",
+                "label": "S",
                 "model": "AssetType"
               },
               {
                 "AssetType": false,
                 "count": 65,
-                "label": "Hoarding",
+                "label": "M",
                 "model": "AssetType"
               },
               {
                 "AssetType": false,
                 "count": 35,
-                "label": "Brochure",
+                "label": "L",
                 "model": "AssetType"
               },
               {
                 "AssetType": false,
                 "count": 23,
-                "label": "Flyer",
+                "label": "XL",
                 "model": "AssetType"
               },
               {
                 "AssetType": false,
                 "count": 12,
-                "label": "Conference Material",
+                "label": "XXL",
                 "model": "AssetType"
-              }
-            ]
-          },
-          {
-            "label": "Period",
-            "items": [
-              {
-                "Period": false,
-                "count": 51,
-                "label": "2020",
-                "model": "Period"
-              },
-              {
-                "Period": false,
-                "count": 3,
-                "label": "2019",
-                "model": "Period"
-              },
-              {
-                "Period": false,
-                "count": 23,
-                "label": "2018",
-                "model": "Period"
-              },
-              {
-                "Period": false,
-                "count": 65,
-                "label": "2017",
-                "model": "Period"
-              }
-            ]
-          },
-          {
-            "label": "Language",
-            "items": [
-              {
-                "Language": false,
-                "count": 51,
-                "label": "English",
-                "model": "Language"
-              },
-              {
-                "Language": false,
-                "count": 3,
-                "label": "Hindi",
-                "model": "Language"
-              },
-              {
-                "Language": false,
-                "count": 23,
-                "label": "Marathi",
-                "model": "Language"
-              },
-              {
-                "Language": false,
-                "count": 65,
-                "label": "Gujarati",
-                "model": "Language"
               }
             ]
           }

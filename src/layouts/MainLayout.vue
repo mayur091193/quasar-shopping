@@ -34,20 +34,20 @@
               transition-hide="flip-left"
             >
               <q-list dense class="text-grey-9 text-caption">
-                <q-item clickable>
+                <q-item @click="$router.push('/category')" clickable>
                   <q-item-section>Mobiles</q-item-section>
                 </q-item>
-                <q-item clickable>
+                <q-item @click="$router.push('/category')" clickable>
                   <q-item-section>Laptops</q-item-section>
                 </q-item>
-                <q-item clickable>
+                <q-item @click="$router.push('/category')" clickable>
                   <q-item-section>Health Care Appliances</q-item-section>
                 </q-item>
                 <!--<q-separator/>-->
-                <q-item clickable>
+                <q-item @click="$router.push('/category')" clickable>
                   <q-item-section>Speakers</q-item-section>
                 </q-item>
-                <q-item clickable>
+                <q-item @click="$router.push('/category')" clickable>
                   <q-item-section>Smart Home Automation</q-item-section>
                 </q-item>
               </q-list>
@@ -64,20 +64,20 @@
               transition-hide="flip-left"
             >
               <q-list dense class="text-grey-9 text-caption">
-                <q-item clickable>
+                <q-item @click="$router.push('/category')" clickable>
                   <q-item-section>Television</q-item-section>
                 </q-item>
-                <q-item clickable>
+                <q-item @click="$router.push('/category')" clickable>
                   <q-item-section>Air Conditioners</q-item-section>
                 </q-item>
-                <q-item clickable>
+                <q-item @click="$router.push('/category')" clickable>
                   <q-item-section>Health Care Appliances</q-item-section>
                 </q-item>
                 <!--<q-separator/>-->
-                <q-item clickable>
+                <q-item @click="$router.push('/category')" clickable>
                   <q-item-section>Shop By Screen Size</q-item-section>
                 </q-item>
-                <q-item clickable>
+                <q-item @click="$router.push('/category')" clickable>
                   <q-item-section>Smart Home Appliances</q-item-section>
                 </q-item>
               </q-list>
@@ -94,13 +94,13 @@
               transition-hide="flip-left"
             >
               <q-list dense class="text-grey-9 text-caption">
-                <q-item clickable>
+                <q-item @click="$router.push('/category')" clickable>
                   <q-item-section>Footwear</q-item-section>
                 </q-item>
-                <q-item clickable>
+                <q-item @click="$router.push('/category')" clickable>
                   <q-item-section>Clothing</q-item-section>
                 </q-item>
-                <q-item clickable>
+                <q-item @click="$router.push('/category')" clickable>
                   <q-item-section>Sports & Fitness Store</q-item-section>
                 </q-item>
               </q-list>
