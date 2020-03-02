@@ -69,6 +69,14 @@ Reach out to me at "mayur091193@gmail.com" for queries.
 	</kbd>
 </p>
 
+**Footer**
+<p float="left">
+	<kbd>
+<img src="src/assets/footer.png" border="1" alt="Change Request"
+	title="Category"  />
+	</kbd>
+</p>
+
 ### Customize the configuration
 See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
 
