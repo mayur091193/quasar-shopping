@@ -57,8 +57,8 @@
     export default {
         data() {
             return {
-                username: 'admin',
-                password: 'Admin@CRM',
+                username: 'mayur',
+                password: 'mayur@qu',
                 remember_me: false
             }
         },
