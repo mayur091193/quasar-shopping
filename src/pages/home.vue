@@ -151,25 +151,25 @@
           >
             <q-carousel-slide v-for="val in [1,2,3]" :name="val" class="column no-wrap">
               <div class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap">
-                <q-img style="border:1px solid lightgrey;" class="rounded-borders col-3 cursor-pointer full-height"
+                <q-img @click="$router.push('/category')" style="border:1px solid lightgrey;" class="rounded-borders col-3 cursor-pointer full-height"
                        src="https://www.graphicsprings.com/filestorage/stencils/1cdf3eae16b6d0da3f16ff12f7650a24.png">
                   <div class="absolute-bottom custom-caption" style="background-color:rgba(0, 0, 0, .5);">
                     <div class="text-caption text-weight-bolder">Electronics</div>
                   </div>
                 </q-img>
-                <q-img style="border:1px solid lightgrey;" class="rounded-borders col-3 cursor-pointer full-height"
+                <q-img @click="$router.push('/category')" style="border:1px solid lightgrey;" class="rounded-borders col-3 cursor-pointer full-height"
                        src="https://www.graphicsprings.com/filestorage/stencils/d3dd5cb632e0826d9e6136af3241b28e.png">
                   <div class="absolute-bottom custom-caption" style="background-color:rgba(0, 0, 0, .5);">
                     <div class="text-caption text-weight-bolder">TVs and Appliances</div>
                   </div>
                 </q-img>
-                <q-img style="border:1px solid lightgrey;" class="rounded-borders col-3 cursor-pointer full-height"
+                <q-img @click="$router.push('/category')" style="border:1px solid lightgrey;" class="rounded-borders col-3 cursor-pointer full-height"
                        src="https://www.graphicsprings.com/filestorage/stencils/1cdf3eae16b6d0da3f16ff12f7650a24.png">
                   <div class="absolute-bottom custom-caption" style="background-color:rgba(0, 0, 0, .5);">
                     <div class="text-caption text-weight-bolder">Men</div>
                   </div>
                 </q-img>
-                <q-img style="border:1px solid lightgrey;" class="rounded-borders col-3 cursor-pointer full-height"
+                <q-img @click="$router.push('/category')" style="border:1px solid lightgrey;" class="rounded-borders col-3 cursor-pointer full-height"
                        src="https://www.graphicsprings.com/filestorage/stencils/d3dd5cb632e0826d9e6136af3241b28e.png">
                   <div class="absolute-bottom custom-caption" style="background-color:rgba(0, 0, 0, .5);">
                     <div class="text-caption text-weight-bolder">Women</div>

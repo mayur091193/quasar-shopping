@@ -13,7 +13,12 @@
                    label="Search for products, brands and more"/>
         </q-toolbar-title>
 
-        <q-btn flat dense icon="shopping_cart" class="text-capitalize q-mr-md text-bold" label="Cart"/>
+        <!--<q-btn flat dense icon="shopping_cart" class="text-capitalize q-mr-md text-bold" label="Cart"/>-->
+        <q-btn class="q-mr-md" dense round flat icon="shopping_cart">
+          <q-badge color="red" class="text-bold" floating transparent>
+            4
+          </q-badge>
+        </q-btn>
         <q-btn flat round dense icon="settings" class="q-mr-md"/>
         <q-btn flat round dense icon="fas fa-sign-out-alt" to="/"/>
       </q-toolbar>
