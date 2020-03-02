@@ -2,6 +2,8 @@
 
 A free and beautiful Quasar template for Shopping website.
 
+# Responsive - In next release
+
 ## Site: [https://quasar-shopping.netlify.com/](https://quasar-shopping.netlify.com/)
 
 ## Resources used
