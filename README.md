@@ -2,7 +2,7 @@
 
 A free and beautiful Quasar template for Shopping website.
 
-## Site: [https://quasar-admin-crm-template.netlify.com/](https://quasar-admin-crm-template.netlify.com/)
+## Site: [https://quasar-shopping.netlify.com/](https://quasar-admin-crm-template.netlify.com/)
 
 ## Resources used
 * [Quasar Framework](https://quasar.dev/)
