@@ -1,12 +1,20 @@
 # Quasar Shopping
 
-A free and beautiful Quasar template for Shopping website.
+A free and beautiful eCommerce UI template written in Vue.js/Quasar.
 
 ## Site: [https://quasar-shopping.netlify.com/](https://quasar-shopping.netlify.com/)
 
 ## Resources used
 * [Quasar Framework](https://quasar.dev/)
 * [Vue.js](https://vuejs.org/)
+
+What it deliveres
+* eCommerce UI template written in Vue.js/Quasar
+
+Future release:
+* Mobile friendly
+* Seller related pages
+* Backend(planning to use [Python](https://www.python.org/))
 
 
 ## Installation
