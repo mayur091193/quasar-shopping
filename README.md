@@ -73,7 +73,7 @@ Reach out to me at "mayur091193@gmail.com" for queries.
 <p float="left">
 	<kbd>
 <img src="src/assets/footer.png" border="1" alt="Change Request"
-	title="Category"  />
+	title="Footer"  />
 	</kbd>
 </p>
 
