@@ -40,7 +40,7 @@ Reach out to me at "mayur091193@gmail.com" for queries.
 **Login**
 <p float="left">
         <kbd>
-<img src="assets/login.png" border="1" alt="Login"
+<img src="src/assets/login.png" border="1" alt="Login"
         title="Login"  />
                 </kbd>
 </p>
