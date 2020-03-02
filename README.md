@@ -8,10 +8,10 @@ A free and beautiful eCommerce UI template written in Vue.js/Quasar.
 * [Quasar Framework](https://quasar.dev/)
 * [Vue.js](https://vuejs.org/)
 
-What it deliveres
+## What it deliveres
 * eCommerce UI template written in Vue.js/Quasar
 
-Future release:
+## Future release:
 * Mobile friendly
 * Seller related pages
 * Backend(planning to use [Python](https://www.python.org/))
@@ -87,8 +87,6 @@ Reach out to me at "mayur091193@gmail.com" for queries.
 
 ### Customize the configuration
 See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
-
-# Responsive - In next release
 
 ## License
 
