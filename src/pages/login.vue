@@ -2,9 +2,9 @@
   <q-layout>
     <q-page-container>
       <q-page class="flex flex-center" style="font-family: Lato;">
-        <div id="particles-js"></div>
-        <q-card class="row my-card items-center q-pa-none q-ma-none shadow-24">
-          <q-card-section class="col-4 items-center float-left" style="background-color: #1f509e"
+<!--        <div id="particles-js"></div>-->
+        <q-card :style="$q.platform.is.desktop ? 'width:55%;' : ''" class="row my-card items-center q-pa-none q-ma-none shadow-24">
+          <q-card-section v-if="$q.platform.is.desktop" class="col-md-4 col-lg-4 col-sm-12 sol-xs-12 items-center float-left" style="background-color: #1f509e"
                           :style="{'height':(win_height-270)+'px'}" horizontal>
             <div class="text-center full-width">
               <div><img src="statics/images/logo.png" style="width: 33%"/></div>
@@ -12,11 +12,11 @@
               <div class="text-caption text-white">Quasar Shopping - One stop solution</div>
             </div>
           </q-card-section>
-          <q-card-section class="col-8 float-left">
+          <q-card-section class="col-md-8 col-lg-8 col-sm-12 sol-xs-12 float-left">
             <q-card-section class="items-center">
               <div>
-
-                <q-form style="width: 50%;margin: auto;" class="q-gutter-md">
+                <div v-if="!$q.platform.is.desktop" class="text-weight-bolder text-center q-mb-md text-primary text-h6">Quasar Shopping</div>
+                <q-form :style="$q.platform.is.desktop ? 'width:55%;margin: auto;' : 'margin: auto;'" class="q-gutter-md">
                   <span class="text-subtitle1 text-weight-bold text-grey-7">Welcome Aboard</span>
                   <q-input
                     dense
@@ -77,7 +77,7 @@
 </script>
 <style>
   .my-card {
-    width: 55%;
+    /*width: 55%;*/
     height: 30%;
   }
 
