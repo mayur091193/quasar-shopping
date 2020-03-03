@@ -23,8 +23,8 @@
         <q-btn flat round dense icon="fas fa-sign-out-alt" to="/"/>
       </q-toolbar>
       <div class="bg-white text-grey-9 text-weight-bold shadow-transition">
-        <div class="row text-center items-center" style="height: 38px">
-          <div class="col-2 cursor-pointer hover-blue" @mouseover="menu_cat_elc=true">
+        <div class="row text-center items-center" :style="$q.platform.is.desktop ? 'height: 38px' : ''">
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 cursor-pointer hover-blue" @mouseover="menu_cat_elc=true">
             Electronics
             <q-menu
               fit
@@ -54,7 +54,7 @@
             </q-menu>
             <q-icon size="sm" class="q-ml-xs text-grey-5" name="keyboard_arrow_down"></q-icon>
           </div>
-          <div class="col-2 cursor-pointer hover-blue" @mouseover="menu_cat_tvs=true">
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 cursor-pointer hover-blue" @mouseover="menu_cat_tvs=true">
             TVs and Appliances
             <q-menu
               fit
@@ -84,7 +84,7 @@
             </q-menu>
             <q-icon size="sm" class="q-ml-xs text-grey-5" name="keyboard_arrow_down"></q-icon>
           </div>
-          <div class="col-2 cursor-pointer hover-blue" @mouseover="menu_cat_men=true">
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 cursor-pointer hover-blue" @mouseover="menu_cat_men=true">
             Men
             <q-menu
               fit
@@ -107,15 +107,15 @@
             </q-menu>
             <q-icon size="sm" class="q-ml-xs text-grey-5" name="keyboard_arrow_down"></q-icon>
           </div>
-          <div class="col-2 cursor-pointer hover-blue">
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 cursor-pointer hover-blue">
             Women
             <q-icon size="sm" class="q-ml-xs text-grey-5" name="keyboard_arrow_down"></q-icon>
           </div>
-          <div class="col-2 cursor-pointer hover-blue">
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 cursor-pointer hover-blue">
             Home & Furniture
             <q-icon size="sm" class="q-ml-xs text-grey-5" name="keyboard_arrow_down"></q-icon>
           </div>
-          <div class="col-2 cursor-pointer hover-blue">
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 cursor-pointer hover-blue">
             Offers
           </div>
         </div>
@@ -127,8 +127,8 @@
       <router-view/>
       <div class="q-mt-sm">
         <div class="row q-pa-md bg-primary">
-          <div class="col-1"></div>
-          <div class="col-2 text-white">
+          <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12"></div>
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 text-white">
             <div class="text-subtitle1 text-weight-bold">About</div>
             <div class="text-caption hover_underline_white q-mt-sm">Contact us</div>
             <div class="text-caption hover_underline_white">About Us</div>
@@ -136,13 +136,13 @@
             <div class="text-caption hover_underline_white">Our Stories</div>
             <div class="text-caption hover_underline_white">Press</div>
           </div>
-          <div class="col-2 text-white">
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 text-white">
             <div class="text-subtitle1 text-weight-bold">Connect with Us</div>
             <div class="text-caption hover_underline_white q-mt-sm">Facebook</div>
             <div class="text-caption hover_underline_white">Instagram</div>
             <div class="text-caption hover_underline_white">Twitter</div>
           </div>
-          <div class="col-2 text-white">
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 text-white">
             <div class="text-subtitle1 text-weight-bold">Policy</div>
             <div class="text-caption hover_underline_white q-mt-sm">Return Policy</div>
             <div class="text-caption hover_underline_white">Terms Of Use</div>
@@ -150,14 +150,14 @@
             <div class="text-caption hover_underline_white">Privacy</div>
             <div class="text-caption hover_underline_white">Sitemap</div>
           </div>
-          <div class="col-2 text-white">
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 text-white">
             <div class="text-subtitle1 text-weight-bold">Help</div>
             <div class="text-caption hover_underline_white q-mt-sm">Payments</div>
             <div class="text-caption hover_underline_white">Shipping</div>
             <div class="text-caption hover_underline_white">Cancellation & Returns</div>
             <div class="text-caption hover_underline_white">FAQ</div>
           </div>
-          <div class="col-3 q-pl-xl text-white" style="border-left: 1px solid grey;">
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12  text-white" :class="$q.platform.is.desktop ? 'q-pl-xl' : ''" :style="$q.platform.is.desktop ? 'border-left: 1px solid grey;' : ''">
             <div class="text-subtitle1 text-weight-bold">Registered Office Address:</div>
             <div class="text-caption q-mt-sm">335, Gokhale Wadi, Grant Road</div>
             <div class="text-caption">Mumbai, Maharashtra</div>

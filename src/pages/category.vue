@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row bg-white q-mt-sm">
-      <div class="col-2" style="border-right: 1px solid lightgrey">
+      <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12" style="border-right: 1px solid lightgrey">
         <q-card class="q-mr-sm no-shadow">
           <!--<q-card-section class="text-subtitle1 text-grey-8">-->
           <!--Filter By-->
@@ -28,7 +28,7 @@
           </transition-group>
         </q-card>
       </div>
-      <div class="col-10">
+      <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
         <div class="q-pa-md row items-start q-gutter-md">
           <q-card @click="$router.push('/details')" class="cursor-pointer" :class="class_val"
                   @mouseover="class_val='my-card shadow-20'"

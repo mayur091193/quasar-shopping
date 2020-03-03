@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row bg-white q-mt-sm">
-      <div class="col-5">
+      <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
         <div class="q-pa-md">
 
           <q-carousel
@@ -20,10 +20,10 @@
 
         </div>
       </div>
-      <div class="col-7">
+      <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
         <!--<q-scroll-area :style="{'height':(win_height-200)+'px'}">-->
         <div class="row">
-          <div class="col-7">
+          <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12" :class="$q.platform.is.desktop ? '' : 'q-px-md'">
             <div class="text-subtitle1 text-grey-10 q-mt-sm q-pt-xs">Benling C200-BLK Smartwatch (Black Strap Free Size)
             </div>
             <div>
@@ -64,7 +64,7 @@
               <q-btn class="q-mt-md q-ml-md" color="orange-8" icon="shopping_cart" label="Buy now"/>
             </div>
           </div>
-          <div class="col-5 q-mt-md q-pt-xs q-pl-lg">
+          <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 q-mt-md q-pt-xs q-pl-lg">
             <div class="text-subtitle2">Customer rating</div>
             <div class="text-h3">4.2</div>
             <div>
@@ -123,7 +123,7 @@
       </div>
     </div>
     <div class="row q-mt-sm">
-      <div class="col-12">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <q-tabs
           v-model="tab"
           dense
@@ -140,7 +140,7 @@
         <q-tab-panels style="border: 1px solid lightgrey" v-model="tab">
           <q-tab-panel name="Specifications">
             <div class="row">
-              <div class="col-4">
+              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <q-list bordered class="rounded-borders" style="">
                   <q-item-label class="text-weight-bolder" header>General</q-item-label>
                   <q-item>
@@ -161,7 +161,7 @@
                   </q-item>
                 </q-list>
               </div>
-              <div class="col-4">
+              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <q-list bordered class="rounded-borders" style="">
                   <q-item-label class="text-weight-bolder" header>Product Details</q-item-label>
                   <q-item>
@@ -176,7 +176,7 @@
                   </q-item>
                 </q-list>
               </div>
-              <div class="col-4">
+              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <q-list bordered class="rounded-borders" style="">
                   <q-item-label class="text-weight-bolder" header>Camera And Display Features</q-item-label>
                   <q-item>
@@ -232,7 +232,7 @@
 
           <q-tab-panel name="Ratings & Reviews">
             <div class="row">
-              <div class="col-6">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <q-list bordered class="rounded-borders" style="">
                   <q-item-label class="text-weight-bolder text-green-8" header>Positive Reviews</q-item-label>
 
@@ -325,7 +325,7 @@
                   </q-item>
                 </q-list>
               </div>
-              <div class="col-6">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <q-list bordered class="rounded-borders" style="">
                   <q-item-label class="text-weight-bolder text-red-8" header>Negative Reviews</q-item-label>
 
