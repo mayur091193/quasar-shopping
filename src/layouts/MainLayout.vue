@@ -4,6 +4,9 @@
 
     <q-header reveal elevated style="background-color: #1f509e;">
       <q-toolbar class="q-py-sm">
+        <div class="row">
+
+        </div>
         <!--          <q-btn @click="left = !left" flat round dense icon="menu" class="q-mr-sm" />-->
         <img @click="$router.push('/home')" class="cursor-pointer" src="statics/images/logo.png" style="width: 3%"/>
         <q-toolbar-title>
