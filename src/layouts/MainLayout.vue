@@ -3,10 +3,38 @@
     <q-header reveal elevated style="background-color: #1f509e;"> -->
 
     <q-header reveal elevated style="background-color: #1f509e;">
-      <q-toolbar class="q-py-sm">
+      <q-toolbar v-if="!$q.platform.is.desktop" class="q-py-sm">
         <div class="row">
-
+          <div class="col-sm-12 col-xs-12">
+            <q-toolbar-title>
+              <img @click="$router.push('/home')" class="cursor-pointer float-left" src="statics/images/logo.png" style="width: 12%"/>
+              <span class="float-left q-mt-xs q-ml-md text-h6 text-weight-bold" style="font-size: 17px;">Quasar Shopping</span>
+            </q-toolbar-title>
+          </div>
+          <div class="col-sm-12 col-xs-12 q-mt-md">
+            <q-input class="float-left q-mx-md full-width" square bg-color="white" dense outlined
+                     v-model="text"
+                     label="Search for products, brands and more"/>
+          </div>
+          <div class="col-sm-12 col-xs-12 q-mt-md">
+            <div>
+              <q-btn class="q-mr-md" dense round flat icon="shopping_cart">
+                <q-badge color="red" class="text-bold" floating transparent>
+                  4
+                </q-badge>
+              </q-btn>
+              <q-btn flat round dense icon="settings" class="q-mr-md"/>
+              <q-btn flat round dense icon="fas fa-sign-out-alt" to="/"/>
+            </div>
+          </div>
         </div>
+        <!--          <q-btn @click="left = !left" flat round dense icon="menu" class="q-mr-sm" />-->
+
+
+        <!--<q-btn flat dense icon="shopping_cart" class="text-capitalize q-mr-md text-bold" label="Cart"/>-->
+
+      </q-toolbar>
+      <q-toolbar v-if="$q.platform.is.desktop" class="q-py-sm">
         <!--          <q-btn @click="left = !left" flat round dense icon="menu" class="q-mr-sm" />-->
         <img @click="$router.push('/home')" class="cursor-pointer" src="statics/images/logo.png" style="width: 3%"/>
         <q-toolbar-title>
@@ -160,7 +188,9 @@
             <div class="text-caption hover_underline_white">Cancellation & Returns</div>
             <div class="text-caption hover_underline_white">FAQ</div>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12  text-white" :class="$q.platform.is.desktop ? 'q-pl-xl' : ''" :style="$q.platform.is.desktop ? 'border-left: 1px solid grey;' : ''">
+          <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12  text-white"
+               :class="$q.platform.is.desktop ? 'q-pl-xl' : ''"
+               :style="$q.platform.is.desktop ? 'border-left: 1px solid grey;' : ''">
             <div class="text-subtitle1 text-weight-bold">Registered Office Address:</div>
             <div class="text-caption q-mt-sm">335, Gokhale Wadi, Grant Road</div>
             <div class="text-caption">Mumbai, Maharashtra</div>
