@@ -6,7 +6,7 @@ A free and beautiful eCommerce UI template written in Vue.js/Quasar.
 
 ## Support
 
-If this helped you, you can contribute to this project by supporting me:
+If this hepls you in any way, you can contribute to this project by supporting me:
 
 ### [💜 Support my open-source work on GitHub](https://github.com/sponsors/mayur091193)
 
