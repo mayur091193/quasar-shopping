@@ -4,6 +4,18 @@ A free and beautiful eCommerce UI template written in Vue.js/Quasar.
 
 ## Site: [https://quasar-shopping.netlify.com/](https://quasar-shopping.netlify.com/)
 
+## Support
+
+If this helped you, you can contribute to this project by supporting me:
+
+### [💜 Support my open-source work on GitHub](https://github.com/sponsors/mayur091193)
+
+Please check out my sponsor page.
+
+(Every small appreciation can make my day!)
+
+Thank you very much!!
+
 ## Resources used
 * [Quasar Framework](https://quasar.dev/)
 * [Vue.js](https://vuejs.org/)
