@@ -7,7 +7,7 @@
           <q-card-section v-if="$q.platform.is.desktop" class="col-md-4 col-lg-4 col-sm-12 sol-xs-12 items-center float-left" style="background-color: #1f509e"
                           :style="{'height':(win_height-270)+'px'}" horizontal>
             <div class="text-center full-width">
-              <div><img src="statics/images/logo.png" style="width: 33%"/></div>
+              <div><img src="images/logo.png" style="width: 33%"/></div>
               <div class="text-weight-bolder text-white text-h6">Quasar Shopping</div>
               <div class="text-caption text-white">Quasar Shopping - One stop solution</div>
             </div>

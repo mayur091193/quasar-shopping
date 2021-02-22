@@ -352,7 +352,4 @@ export default {
   padding: 8px
   color: white
   background-color: rgba(0, 0, 0, .3)
-
-// .my-entry
-//   row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap
 </style>
