@@ -11,17 +11,17 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@quasar/extras": "^1.0.0",
-    "apexcharts": "^3.15.5",
-    "echarts": "^4.6.0",
-    "quasar": "^1.0.0",
-    "vue-apexcharts": "^1.5.2",
+    "@quasar/extras": "^1.9.17",
+    "apexcharts": "^3.25.0",
+    "echarts": "^5.0.2",
+    "quasar": "^1.15.4",
+    "vue-apexcharts": "^1.6.0",
     "vue-echarts-v3": "^2.0.1",
     "vue-winwheel": "^1.0.0",
-    "vuedraggable": "^2.23.2"
+    "vuedraggable": "^2.24.3"
   },
   "devDependencies": {
-    "@quasar/app": "^1.0.0"
+    "@quasar/app": "^2.1.15"
   },
   "engines": {
     "node": ">= 10.18.1",

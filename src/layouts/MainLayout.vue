@@ -7,7 +7,7 @@
         <div class="row">
           <div class="col-sm-12 col-xs-12">
             <q-toolbar-title>
-              <img @click="$router.push('/home')" class="cursor-pointer float-left" src="statics/images/logo.png" style="width: 12%"/>
+              <img @click="$router.push('/home')" class="cursor-pointer float-left" src="images/logo.png" style="width: 12%"/>
               <span class="float-left q-mt-xs q-ml-md text-h6 text-weight-bold" style="font-size: 17px;">Quasar Shopping</span>
             </q-toolbar-title>
           </div>
@@ -36,7 +36,7 @@
       </q-toolbar>
       <q-toolbar v-if="$q.platform.is.desktop" class="q-py-sm">
         <!--          <q-btn @click="left = !left" flat round dense icon="menu" class="q-mr-sm" />-->
-        <img @click="$router.push('/home')" class="cursor-pointer" src="statics/images/logo.png" style="width: 3%"/>
+        <img @click="$router.push('/home')" class="cursor-pointer" src="images/logo.png" style="width: 3%"/>
         <q-toolbar-title>
           <span class="float-left q-mt-xs text-h6 text-weight-bold" style="font-size: 17px;">Quasar Shopping</span>
           <q-input class="float-left q-ml-xl" style="width: 650px;" square bg-color="white" dense outlined
@@ -232,7 +232,7 @@
 <style>
   .q-drawer {
     /*background-image: url(https://demos.creative-tim.com/vue-material-dashboard/img/sidebar-2.32103624.jpg) !important;*/
-    background-image: url('/statics/images/lake.jpg') !important;
+    background-image: url('/images/lake.jpg') !important;
     background-size: cover !important;
   }
 
