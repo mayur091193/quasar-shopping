@@ -21,7 +21,7 @@
     "vuedraggable": "^2.24.3"
   },
   "devDependencies": {
-    "@quasar/app": "^2.1.15"
+    "@quasar/app": "^2.4.3"
   },
   "engines": {
     "node": ">= 10.18.1",
